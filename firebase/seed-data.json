@@ -1,0 +1,81 @@
+{
+  "questions": {
+    "q1": {
+      "question": "Which country won the 2018 FIFA World Cup?",
+      "options": ["France", "Croatia", "Brazil", "Germany"],
+      "correctIndex": 0,
+      "category": "World Cup"
+    },
+    "q2": {
+      "question": "Which club has won the most UEFA Champions League titles?",
+      "options": ["AC Milan", "Bayern Munich", "Real Madrid", "Liverpool"],
+      "correctIndex": 2,
+      "category": "Club"
+    },
+    "q3": {
+      "question": "Who is the all-time top scorer of the English Premier League?",
+      "options": ["Wayne Rooney", "Alan Shearer", "Harry Kane", "Sergio Aguero"],
+      "correctIndex": 1,
+      "category": "Premier League"
+    },
+    "q4": {
+      "question": "How many players from each team are on the pitch at kick-off?",
+      "options": ["9", "10", "11", "12"],
+      "correctIndex": 2,
+      "category": "Rules"
+    },
+    "q5": {
+      "question": "Which player has won the most Ballon d'Or awards?",
+      "options": ["Cristiano Ronaldo", "Michel Platini", "Johan Cruyff", "Lionel Messi"],
+      "correctIndex": 3,
+      "category": "Awards"
+    }
+  },
+  "careerQuiz": {
+    "p1": {
+      "player": "Zlatan Ibrahimovic",
+      "hint": "Swedish striker, famous for spectacular volleys",
+      "photoUrl": "",
+      "clubs": [
+        { "name": "Malmo FF", "aliases": ["Malmo", "Malmoe"] },
+        { "name": "Ajax", "aliases": ["AFC Ajax"] },
+        { "name": "Juventus", "aliases": ["Juve"] },
+        { "name": "Inter Milan", "aliases": ["Internazionale", "Inter"] },
+        { "name": "Barcelona", "aliases": ["Barca", "FC Barcelona"] },
+        { "name": "AC Milan", "aliases": ["Milan"] },
+        { "name": "Paris Saint-Germain", "aliases": ["PSG", "Paris SG"] },
+        { "name": "Manchester United", "aliases": ["Man Utd", "Man United", "United"] },
+        { "name": "LA Galaxy", "aliases": ["Los Angeles Galaxy"] }
+      ]
+    },
+    "p2": {
+      "player": "Cristiano Ronaldo",
+      "hint": "Portuguese forward, five-time Ballon d'Or winner",
+      "photoUrl": "",
+      "clubs": [
+        { "name": "Sporting CP", "aliases": ["Sporting Lisbon", "Sporting"] },
+        { "name": "Manchester United", "aliases": ["Man Utd", "Man United", "United"] },
+        { "name": "Real Madrid", "aliases": ["Madrid", "Los Blancos"] },
+        { "name": "Juventus", "aliases": ["Juve"] },
+        { "name": "Al Nassr", "aliases": ["Al-Nassr"] }
+      ]
+    },
+    "p3": {
+      "player": "Andrea Pirlo",
+      "hint": "Italian midfield maestro, deep-lying playmaker",
+      "photoUrl": "",
+      "clubs": [
+        { "name": "Brescia", "aliases": ["Brescia Calcio"] },
+        { "name": "Inter Milan", "aliases": ["Internazionale", "Inter"] },
+        { "name": "AC Milan", "aliases": ["Milan"] },
+        { "name": "Juventus", "aliases": ["Juve"] },
+        { "name": "New York City FC", "aliases": ["NYCFC", "New York City"] }
+      ]
+    }
+  },
+  "leaderboard": {
+    "s1": { "name": "Alex", "score": 8, "mode": "trivia", "timestamp": 1719840000000 },
+    "s2": { "name": "Sam", "score": 5, "mode": "trivia", "timestamp": 1719900000000 },
+    "s3": { "name": "Jordan", "score": 7, "mode": "career", "timestamp": 1719960000000 }
+  }
+}

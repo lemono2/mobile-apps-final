@@ -1,0 +1,23 @@
+{
+  "rules": {
+    "questions": {
+      ".read": true,
+      ".write": false
+    },
+    "careerQuiz": {
+      ".read": true,
+      ".write": false
+    },
+    "leaderboard": {
+      ".read": true,
+      ".write": true,
+      "$entry": {
+        ".validate": "newData.hasChildren(['name', 'score', 'mode', 'timestamp'])",
+        "name": { ".validate": "newData.isString() && newData.val().length <= 30" },
+        "score": { ".validate": "newData.isNumber()" },
+        "mode": { ".validate": "newData.isString()" },
+        "timestamp": { ".validate": "newData.isNumber()" }
+      }
+    }
+  }
+}
